@@ -26,28 +26,28 @@ The rest of files needed for certain step are avaiable on publicly available res
 3. Differential methylation analysis
 4. Pick significant DMPs
 5. DMRs Building
-6. Simulate DMRs building with rows permutation
+6. Simulate DMRs building with rows permutation (Optional step - can take several hours to run based on number of CPUs and repetitions)
 7. Load and prepare lists of DMRs
-8. Acute methylation change versus control between DMPs
-9. % of DMPs in DMRs
-10. DMPs which changed at least of 0.58 or -0.58 M Value versus control
-11. Detailed methylation patterns
+8. Acute methylation change versus control between DMPs **(Figure_1D; Figure_S1B; Figure_S1C; Figure_1D)**
+9. % of DMPs in DMRs (Figure_S1H)
+10. DMPs which changed at least of 0.58 or -0.58 M Value versus control (Figure_1E; Figure_1D; Figure_S1D)
+11. Detailed methylation patterns **(Figure_S1E; Figure_S1F)**
 12. Select DMRs, DMPs in or out of DMRs and all DMPs for further analysis
 13. Annotate data.raw and prepare for further normalization
-14. Annotate Genic Locations
-15. Annotate to CpG Islands
-16. Chronic methylation change
-17. Chromosomes with the highest DMPs frequency
+14. Annotate Genic Locations **(Figure_1G)**
+15. Annotate to CpG Islands **(Figure_1H; Figure_1I; Figure_S1J; Figure_S1K; Figure_S1L)**
+16. Chronic methylation change **(Figure_4A; Figure_4B; Figure_S4A)**
+17. Chromosomes with the highest DMPs frequency **(Figure_S2B; Figure_S2C; Figure_S2D; Figure_S2E; Figure_S2F; Figure_S2G)**
 18. Assign Hi-C compartments to the data
 19. Data preparation for Hi-C analysis
-20. Order and plot data.raw chromosome position
-21. Chromosomal frequencies in each nucleus layer
-22. DMPs frequency and DNA methylation change within nucleus layers
+20. Order and plot data.raw chromosome position **(Figure_2B; Figure_S2A)**
+21. Chromosomal frequencies in each nucleus layer **(Figure_2D; Figure_S2I; Figure_S2J; Figure_S2K; Figure_S2L; Figure_S2M)**
+22. DMPs frequency and DNA methylation change within nucleus layers **(Figure_2C; Figure_2E; Figure_S2H; Figure_S2N)**
 23. Load and prepare histone modifications datasets for methylation analysis
-24. Assign histone modifications to Hi-C layers
-25. Plot data.raw probes into histone modifications picks and Hi-C layers
+24. Assign histone modifications to Hi-C layers **(Figure_3B; Figure_3C; Figure_3D; Figure_3E; Figure_3F; Figure_S3B; Figure_S3C; Figure_S3D)**
+25. Plot data.raw probes into histone modifications picks and Hi-C layers **(Figure_3A; Figure_S4A)**
 26. Data preparation for regulatory regions (promoter and enhancers) analysis
-27. Add Hi-C to regulatory regions
-28. DNA Methylation change in regulatory regions
+27. Add Hi-C to regulatory regions **(Figure_S3F)**
+28. DNA Methylation change in regulatory regions **(Figure_3G; Figure_S3I; Figure_S3J; Figure_S3K; Figure_S3L; Figure_S3G)**
 29. Baseline methylation level in regulatory regions
-30. Add Hi-C to regulatory regions (without DMPs overlapping)
+30. Add Hi-C to regulatory regions (without DMPs overlapping) **(Figure_S3E)**
