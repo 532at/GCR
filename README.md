@@ -14,7 +14,7 @@ R Scripts contain all necessary code to perform the analysis and generate all fi
 3. DMPs.annotations.all.probes.2000.rdata (you can generate it via in second step of DNA.methylation.R script - it takes several hours and 200MB of disk space)
 4. DMRs.newest.GRanges.rdata
 5. DMRs.newest.annotations.rdata
-6. Den.newest.GRanges.rdata
+6. Bed.newest.GRanges.rdata
 
 The rest of files needed for certain step are avaiable on publicly available respositories and are decribied in detail in the article. 
 
