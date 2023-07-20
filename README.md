@@ -65,7 +65,7 @@ This step creates space.genes.rdata file necessary for RNAseq.R script
 5. Microarray for Si - Breast _ Gamma Rays **(Figure_S5E; Figure_S5F)**
 6. Microarray for Cs137 - Blood **(Figure_S5G; Figure_S5H)**
 
-### IV. RNAseq.R (Running time ~ minutes)
+### IV. RNAseq.R (Running time ~ 2 minutes)
 1. Load packages
 2. RNA-seq - Fe liver **(Figure_4D; Figure_4E)**
 3. RNA-seq - Co57 retina **(Figure_S5I; Figure_S5J)**
