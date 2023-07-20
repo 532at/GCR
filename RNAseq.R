@@ -713,7 +713,7 @@ Astro.4 <- Astro.4[,2:5]
 
 colnames(Astro.4) <- c("5-30days\ninFlight", "60-120days\ninFlight", "3-30days\npostFlight", "60-120days\npostFlight")
 
-#Figure_4F
+#Figure_4G
 ggplot(melt(dplyr::filter(Astro.4, Astro.4[,1] > 0)), aes(factor(variable), value)) +
   geom_boxplot(fill = "lightblue", alpha = 0.75, width=0.5) +
   geom_hline(yintercept=0, linetype="dashed", color = "blue", size=1, alpha = 0.5) +
@@ -726,7 +726,7 @@ ggplot(melt(dplyr::filter(Astro.4, Astro.4[,1] > 0)), aes(factor(variable), valu
     axis.title.y = element_text(size = 8, face="bold"),
     title = element_text(size = 8, face = "bold"))
 
-#Figure_4G
+#Figure_4H
 ggplot(melt(dplyr::filter(Astro.4, Astro.4[,1] < 0)), aes(factor(variable), value)) +
   geom_boxplot(fill = "lightblue", alpha = 0.75, width=0.5) +
   geom_hline(yintercept=0, linetype="dashed", color = "blue", size=1, alpha = 0.5) +
