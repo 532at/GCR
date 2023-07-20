@@ -51,3 +51,16 @@ The rest of files needed for certain step are avaiable on publicly available res
 28. DNA Methylation change in regulatory regions **(Figure_3G; Figure_S3I; Figure_S3J; Figure_S3K; Figure_S3L; Figure_S3G)**
 29. Baseline methylation level in regulatory regions
 30. Add Hi-C to regulatory regions (without DMPs overlapping) **(Figure_S3E)**
+
+We suggest running it chronologically as some steps may have consequences in further ones.
+
+### Genes.for.hic.astronatus.R (Running time ~ 3 minutes)
+This step creates space.genes.rdata file necessary for RNAseq.R script
+
+### Microarray.R (Running time ~ 2 minutes)
+1. Load packages
+2. Microarray for Fe - Heart **(Figure_4F; Figure_4G)**
+3. Microarray for Si - Breast **(Figure_S3A; Figure_S3B)**
+4. Microarray for Fe - Heart _ Protons **(Figure_S3C)**
+5. Microarray for Si - Breast _ Gamma Rays **(Figure_S5E; Figure_S5F)**
+6. Microarray for Cs137 - Blood **(Figure_S5G; Figure_S5H)**
