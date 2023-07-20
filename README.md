@@ -11,7 +11,7 @@ R Scripts contain all necessary code to perform the analysis and generate all fi
 ## Files necessary to run code:
 1. GSE108187_processed_matrix.csv (you can download it here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108187)
 2. GSE108187_colnames.xlsx
-3. DMPs.annotations.all.probes.2000.rdata (you can generate it via script DNA.methylation.R - it takes several hours and 200MB of disk space)
+3. DMPs.annotations.all.probes.2000.rdata (you can generate it via in second step of DNA.methylation.R script - it takes several hours and 200MB of disk space)
 4. DMRs.newest.GRanges.rdata
 5. DMRs.newest.annotations.rdata
 6. Den.newest.GRanges.rdata
