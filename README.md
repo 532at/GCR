@@ -20,7 +20,7 @@ The rest of files needed for certain step are avaiable on publicly available res
 
 ## Table of contents:
 
-### DNA.methylation.R (Running time when all needed files are provided ~ 20 minutes)
+### I. DNA.methylation.R (Running time when all needed files are provided ~ 20 minutes)
 1. Install and load packages
 2. Import and prepare primary files
 3. Differential methylation analysis
@@ -54,13 +54,20 @@ The rest of files needed for certain step are avaiable on publicly available res
 
 We suggest running it chronologically as some steps may have consequences in further ones.
 
-### Genes.for.hic.astronatus.R (Running time ~ 3 minutes)
+### II. Genes.for.hic.astronatus.R (Running time ~ 3 minutes)
 This step creates space.genes.rdata file necessary for RNAseq.R script
 
-### Microarray.R (Running time ~ 2 minutes)
+### III. Microarray.R (Running time ~ 2 minutes)
 1. Load packages
 2. Microarray for Fe - Heart **(Figure_4F; Figure_4G)**
 3. Microarray for Si - Breast **(Figure_S3A; Figure_S3B)**
 4. Microarray for Fe - Heart _ Protons **(Figure_S3C)**
 5. Microarray for Si - Breast _ Gamma Rays **(Figure_S5E; Figure_S5F)**
 6. Microarray for Cs137 - Blood **(Figure_S5G; Figure_S5H)**
+
+### IV. RNAseq.R (Running time ~ minutes)
+1. Load packages
+2. RNA-seq - Fe liver **(Figure_4D; Figure_4E)**
+3. RNA-seq - Co57 retina **(Figure_S5I; Figure_S5J)**
+4. RNA-seq - Astronauts - blood **(Figure_4G; Figure_4H)**
+5. Astronauts - Hi-C **(Figure_4F; Figure_S4M)**
