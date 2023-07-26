@@ -29,8 +29,8 @@ The rest of files needed for certain step are avaiable on publicly available res
 6. Simulate DMRs building with rows permutation (Optional step - can take several hours to run based on number of CPUs and repetitions)
 7. Load and prepare lists of DMRs
 8. Acute methylation change versus control between DMPs **(Figure_1D; Figure_S1B; Figure_S1C; Figure_1D)**
-9. % of DMPs in DMRs (Figure_S1H)
-10. DMPs which changed at least of 0.58 or -0.58 M Value versus control (Figure_1E; Figure_1D; Figure_S1D)
+9. % of DMPs in DMRs **(Figure_S1H)**
+10. DMPs which changed at least of 0.58 or -0.58 M Value versus control **(Figure_1E; Figure_1D; Figure_S1D)**
 11. Detailed methylation patterns **(Figure_S1E; Figure_S1F)**
 12. Select DMRs, DMPs in or out of DMRs and all DMPs for further analysis
 13. Annotate data.raw and prepare for further normalization
